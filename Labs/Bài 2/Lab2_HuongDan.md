@@ -86,6 +86,10 @@ git --version
 # Cấu hình nếu chưa làm
 git config --global user.name "YOUR_NAME"
 git config --global user.email "YOUR_EMAIL"
+
+# Kiểm tra cấu hình:
+git config --list
+
 ```
 
 ### 1.3 Docker Desktop — "It works on my machine" → "It works EVERYWHERE"
