@@ -289,12 +289,11 @@ docker rmi devops-lab2-app
 
 # Xóa bằng Image ID
 docker rmi 7dc3ba123456
+hoặc:
+docker rm -f devops-lab2-app
 
 # Chạy container
 docker run -d -p 3000:3000 --name lab2-app devops-lab2-app
-
-# Lưu ý: Nếu gặp lỗi: container có tên trùng đã tồn tại => Có thể xóa đi bằng cách chạy lệnh:
-docker rm -f lab2-app
 
 # Kiểm tra
 curl http://localhost:3000
