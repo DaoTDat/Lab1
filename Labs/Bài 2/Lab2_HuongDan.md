@@ -111,7 +111,7 @@ Nếu chưa cài: https://www.docker.com/products/docker-desktop/
 
 **Lưu ý:** Để cài đặt và vận hành Docker Desktop trên Windows, chúng ta cần chuẩn bị các phần cứng, môi trường và công cụ tiền đề sau:
 
-**1. Cài PowerShell 7.x  (xem từ slides 32 - bài học 3) và mở ở chế độ (Admin):**
+**1. Cài PowerShell 7.x  (xem từ slides 26 - bài học 3) và mở ở chế độ (Admin):**
 
 - Truy cập: https://github.com/PowerShell/PowerShell/releases
 
@@ -119,7 +119,7 @@ Nếu chưa cài: https://www.docker.com/products/docker-desktop/
 
 - Mở Powershell ở chế độ admin
 
-**2. Cài đặt môi trường ảo hóa WSL 2 (xem từ slides 20 - bài học 4):**
+**2. Cài đặt môi trường ảo hóa WSL 2 (xem từ slides 18 - bài học 4):**
 
 => Lý do: Docker Desktop chạy tốt nhất khi dùng Engine dựa trên WSL 2 (Windows Subsystem for Linux)
 
