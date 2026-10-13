@@ -99,7 +99,7 @@ git config --list
 docker --version
 docker compose version
 
-# Kiểm tra Docker đang chạy
+# Kiểm tra thông tin Docker đang chạy
 docker info
 ```
 
