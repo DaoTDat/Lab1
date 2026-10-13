@@ -278,6 +278,18 @@ Thực thi các lệnh sau ở PowerShell:
 # Build Docker image
 docker build -t devops-lab2-app .
 
+# Kiểm tra danh sách các images:
+docker images
+# Hoặc:
+docker image ls
+
+# Nếu gặp lỗi docker image đã tồn tại, có thể xóa docker image cũ bằng lệnh:
+# Xóa bằng tên image
+docker rmi devops-lab2-app
+
+# Xóa bằng Image ID
+docker rmi 7dc3ba123456
+
 # Chạy container
 docker run -d -p 3000:3000 --name lab2-app devops-lab2-app
 
